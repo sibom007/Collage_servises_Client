@@ -66,7 +66,7 @@ const Nav = () => {
             {navitem}
           </ul>
         </div>
-        <div className=" tooltip tooltip-bottom ml-24 md:-ml-12" data-tip={user?.displayName}>
+        <div className=" tooltip tooltip-bottom ml-24 mr-5" data-tip={user?.displayName}>
           <img className="w-16 rounded-full" src={user?.photoURL} />
         </div>
        
